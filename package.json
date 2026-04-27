@@ -1,0 +1,13 @@
+{
+  "name": "trpg-support",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace @trpg-support/api",
+    "build:api": "npm run build --workspace @trpg-support/api",
+    "start:api": "npm run start --workspace @trpg-support/api"
+  }
+}
